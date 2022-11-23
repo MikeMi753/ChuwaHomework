@@ -1,0 +1,35 @@
+table,
+th,
+td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+}
+
+tr:nth-child(odd) {
+	background-color: lightgray;
+}
+
+th {
+	min-width: 120px;
+	background-color: lightyellow;
+}
+
+.address {
+	min-width: 300px;
+}
+
+#search {
+	border: 2px solid lightgray;
+	border-radius: 40px;
+	width: 600px;
+	height: 40px;
+	padding-left: 20px;
+}
+
+#city {
+	margin-bottom: 500px;
+}
